@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+nav{
+    background-image: url(jordans.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+nav ul {
+  float: right;
+  margin-right:60px ;
+  justify-content: space-between;
+  
+}
+nav ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 5px;
+  
+}
+nav ul li a{
+  color: #faf6f6;
+}
+nav ul li a:hover{
+  color: yellow;
+}
+
+.my_logo{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0 80px;
+    line-height: 60px;
+}
+.checkbtn{
+  float: right;
+  color: #fff;
+  margin-right: 35px;
+  line-height: 80px;
+  font-size: 30px;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media(max-width:750px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    background: darkblue;
+    width: 100%;
+    height: 100vh;
+    top: 60px;
+    text-align: center;
+    left: -100%;
+    transition: all 0.5s;
+  }
+  nav ul li{
+    display: block;
+  }
+  #check:checked~ul{
+    left: 0px;
+  }
+}
+
+.shoe-btn {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+}
+
+.image {
+  width: 100%;
+  padding: 5px 10px 15px;
+  margin: 15px 8px 10px;
+}
+.plane h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  padding-top: 15px;
+}
+.plane p {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.jordans {
+  max-width: 330px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0;
+  margin: 15px;
+  padding: 15px;
+}
+.p_image {
+  width: 100%;
+}
+.my_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.jordans h4 {
+  background: #df0e0e;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.jordans h4:hover {
+  background: skyblue;
+  color: white;
+}
+.foot_btn {
+  background: black;
+  display: flex;
+}
+.footer {
+  text-align: center;
+  padding: 0px 55px;
+  margin: 0px 20px;
+}
+.footer h4 {
+  color: #fff;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+}
+.footer p {
+  color: #fff;
+  text-align: center;
+}

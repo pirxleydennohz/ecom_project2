@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.form{
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+  background: linear-gradient(rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  width: 450px;
+  height: 455px;
+}
+.form h2{
+  background: black;
+  color: #fff;
+  padding: 12px;
+  border: 10px;
+  margin: 0px 8px 8px;
+}
+.input_deg label{
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+}
+
+input[type='text'],[type='email'],[type='password']{
+  width: 40%;
+  padding: 12px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+input[type='submit']{
+  height: 65px;
+  margin-left: 120px;
+  width: 95px;
+  padding: 16px;
+  background: darkorange;
+  font-size: 17px;
+  font-weight: 600;
+
+}
+input[type='submit']:hover{
+  background: lightcoral
+}

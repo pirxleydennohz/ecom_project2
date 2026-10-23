@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.my_form{
+  text-align: center;
+  margin: auto;
+  margin-top: 240px;
+  background: linear-gradient(rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  height: 340px;
+  width: 350px;
+}
+.input{
+  background: transparent;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 15px;
+  padding: 15px;
+  border-bottom: #fdaf06 solid;
+}
+
+ ::placeholder{
+  color: #fff;
+ }
+
+input[type='submit']{
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: darkblue;
+    color: #fff;
+    
+}
+input[type='submit']:hover{
+    background: rgb(15, 15, 15);
+    color: darkorange;
+}
+.sign{
+    color: darkorange;
+}
+.my_form p{
+    margin-top: 15px;
+}
+.my_form h2{
+    background: #ca1616;
+    margin-top: 14px;
+}
